@@ -1,0 +1,13 @@
+diff -urN gcursor-0.061.oryg/data/gcursor.desktop.in gcursor-0.061/data/gcursor.desktop.in
+--- gcursor-0.061.oryg/data/gcursor.desktop.in	2004-09-21 13:09:21.000000000 +0200
++++ gcursor-0.061/data/gcursor.desktop.in	2004-09-21 14:16:27.764152384 +0200
+@@ -5,8 +5,6 @@
+ Icon=
+ Terminal=false
+ Type=Application
+-
+-Categories=GNOME;Application;Settings;
++Categories=GTK;GNOME;Settings;DesktopSettings;
+ StartupNotify=true
+ Encoding=UTF-8
+-
