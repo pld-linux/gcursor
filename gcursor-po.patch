@@ -1,0 +1,60 @@
+diff -urN gcursor-0.061.oryg/configure.in gcursor-0.061/configure.in
+--- gcursor-0.061.oryg/configure.in	2004-09-21 13:09:22.000000000 +0200
++++ gcursor-0.061/configure.in	2004-09-21 14:11:34.482737936 +0200
+@@ -34,7 +34,7 @@
+ 
+ # i18n support
+ dnl please keep them in alphabetical order
+-ALL_LINGUAS="de es sv"
++ALL_LINGUAS="de es pl sv"
+ 
+ GETTEXT_PACKAGE=gcursor
+ AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE",
+diff -urN gcursor-0.061.oryg/po/pl.po gcursor-0.061/po/pl.po
+--- gcursor-0.061.oryg/po/pl.po	1970-01-01 01:00:00.000000000 +0100
++++ gcursor-0.061/po/pl.po	2004-09-21 14:12:30.009296616 +0200
+@@ -0,0 +1,44 @@
++# Polish translation for gcursor
++# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the PACKAGE package.
++# Kamil Kosiński <paladine@palanthas.homelinux.org>, 2004.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gcursor 0.61\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2004-06-23 19:34+0200\n"
++"PO-Revision-Date: 2004-09-21 13:28+0200\n"
++"Last-Translator: Kamil Kosiński <paladine@palanthas.homelinux.org>\n"
++"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++
++#: data/gcursor.desktop.in.h:1
++msgid "Cursor Selection"
++msgstr "Wybór kursora"
++
++#: data/gcursor.desktop.in.h:2
++msgid "Select a different cursor"
++msgstr "Wybiera inny wskaźnik"
++
++#: data/gcursor.glade.h:1
++msgid "Xcursor Selector"
++msgstr "Wybór wskaźnika systemu X Window"
++
++#: data/gcursor.glade.h:2
++msgid "_Go To Theme Folder"
++msgstr "_Przejdź do folderu z motywem"
++
++#: data/gcursor.glade.h:3
++msgid "_Install Theme"
++msgstr "Za_instaluj motyw"
++
++#: data/gcursor.glade.h:4
++msgid "pixels"
++msgstr "pikseli"
++
++#: data/gcursor.glade.h:5
++msgid "size:"
++msgstr "rozmiar:"
