@@ -5,7 +5,7 @@ Version:	0.061
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://download.qballcow.nl/programs/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://download.qballcow.nl/programs/gcursor/%{name}-%{version}.tar.gz
 # Source0-md5:	233810996bc7f69879f8978c523ae723
 Patch0:		%{name}-po.patch
 Patch1:		%{name}-desktop.patch
@@ -22,9 +22,9 @@ preview. It sets a gconf key that is used by GNOME's session manager.
 You need to log in GNOME again to make the changes.
 
 %description -l pl
-gcursor to ma³y program z animowanym podgl±dem, bazuj±cy na GTK+,
-który s³u¿y do zmiany kursora. Ustawia klucz gconf, który jest u¿ywany
-przez menad¿era sesji GNOME. Aby zmiany zadzia³a³y, musisz ponownie
+gcursor to ma³y, oparty na GTK+, program z animowanym podgl±dem, który
+s³u¿y do zmiany kursora. Ustawia klucz gconf, który jest u¿ywany
+przez zarz±dcê sesji GNOME. Aby zmiany zadzia³a³y, trzeba ponownie
 zalogowaæ siê do GNOME.
 
 %prep
