@@ -10,9 +10,9 @@ Source0:	http://download.qballcow.nl/programs/gcursor/%{name}-%{version}.tar.gz
 Patch0:		%{name}-po.patch
 Patch1:		%{name}-desktop.patch
 URL:		http://qballcow.nl/?name=gcursor&css=0
-BuildRequires:	libgnomeui-devel >= 2.0.0
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	libgnomeui-devel >= 2.0.0
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
