@@ -12,8 +12,11 @@ Patch1:		%{name}-desktop.patch
 URL:		http://qballcow.nl/?name=gcursor&css=0
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	gettext-devel
+BuildRequires:	intltool
 BuildRequires:	libgnomeui-devel >= 2.0.0
 BuildRequires:	pkgconfig
+BuildRequires:	popt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
