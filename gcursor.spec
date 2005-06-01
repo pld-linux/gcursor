@@ -16,7 +16,6 @@ BuildRequires:	gettext-devel
 BuildRequires:	intltool
 BuildRequires:	libgnomeui-devel >= 2.0.0
 BuildRequires:	pkgconfig
-BuildRequires:	popt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
