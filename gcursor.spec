@@ -1,5 +1,5 @@
 Summary:	gcursor - a little program to change youre Xcursor
-Summary(pl):	gcursor - ma³y program do zmiany kursora
+Summary(pl.UTF-8):   gcursor - maÅ‚y program do zmiany kursora
 Name:		gcursor
 Version:	0.061
 Release:	1
@@ -23,11 +23,11 @@ gcursor is a little GTK+ program to change youre Xcursor with animated
 preview. It sets a gconf key that is used by GNOME's session manager.
 You need to log in GNOME again to make the changes.
 
-%description -l pl
-gcursor to ma³y, oparty na GTK+, program z animowanym podgl±dem, który
-s³u¿y do zmiany kursora. Ustawia klucz gconf, który jest u¿ywany
-przez zarz±dcê sesji GNOME. Aby zmiany zadzia³a³y, trzeba ponownie
-zalogowaæ siê do GNOME.
+%description -l pl.UTF-8
+gcursor to maÅ‚y, oparty na GTK+, program z animowanym podglÄ…dem, ktÃ³ry
+sÅ‚uÅ¼y do zmiany kursora. Ustawia klucz gconf, ktÃ³ry jest uÅ¼ywany
+przez zarzÄ…dcÄ™ sesji GNOME. Aby zmiany zadziaÅ‚aÅ‚y, trzeba ponownie
+zalogowaÄ‡ siÄ™ do GNOME.
 
 %prep
 %setup -q
