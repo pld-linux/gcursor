@@ -1,5 +1,5 @@
 Summary:	gcursor - a little program to change youre Xcursor
-Summary(pl.UTF-8):   gcursor - mały program do zmiany kursora
+Summary(pl.UTF-8):	gcursor - mały program do zmiany kursora
 Name:		gcursor
 Version:	0.061
 Release:	1
